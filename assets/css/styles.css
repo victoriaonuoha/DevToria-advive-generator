@@ -1,0 +1,19 @@
+hrfgdyuhwj{
+    columns: #4e5d73;
+    color: #52ffa8
+    color(srgb red rgb(240, 247, 240) blue)
+}
+.shinyObject:hover{
+    background-color: rgb(53, 182, 13);
+    background: linear-gradient(120dg,#52ffa8,#11cc6f);
+    animation: shine 0.5s ease-in-out;
+
+}
+@keyframes shine {
+    0%{
+        box-shadow:0 0 10px rgba(255, 255, 255, 0) ;
+    }
+    100%{
+       box-shadow:0 0 20px rgba(255, 255, 255, 0) ; 
+    }
+}
